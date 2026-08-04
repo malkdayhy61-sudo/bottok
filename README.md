@@ -454,10 +454,10 @@ Options:
   -R, --retry-timeout <int>  Waiting trying again timeout in minutes (default: 1)
   -C, --wait-threshold <int> Cooldown applies if wait time exceeds this in minutes (default: 60)
   -Y, --wait-cooldown <int>  Time to wait when threshold is triggered in minutes (default: 20)
-  -H, --c-hearts-qty <int>   Set the number of hearts to send to the comment (25, 50 or 100)
   -T, --c-text-filter <str>  Filter comments by comment text
   -U, --c-user-filter <str>  Filter comments by comment author
   -P, --proxy-nocf           Exclude proxies with Cloudflare protection
+  -Q, --cycle-qty <int>      Set the quantity to send each cycle (25, 50, etc)
 ```
 
 ## Advanced
@@ -614,7 +614,7 @@ Set the number of hearts to send to the comment (25, 50 or 100).
 Only work with Zefoy.
 
 ```bash
-node bottok.js -H 100
+node bottok.js -Q 100
 ```
 
 
