@@ -910,4 +910,4 @@ Thank you very much!!!!
 
 ## Authors
 
-- [Jordi Fernandes (@jfadev)](https://github.com/jfadev)
+- [Jordi Fernandes (@jfadev)](https://github.com/jfadevj)
